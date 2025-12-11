@@ -51,6 +51,30 @@ return {
 			{ loc = vec3(-706.63818359375, -913.68865966797, 19.329681396484),length = 1,width = 1,heading = 0.0,minZ = 29.5,maxZ = 29.9,distance = 1.5 }, -- LITTLE SOUL
 
 		},
+		{
+                ped = `mp_m_shopkeep_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(25.06, -1346.32, 29.5),
+                heading = 270.311,
+            },
+		{
+                ped = `mp_m_shopkeep_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(-30039.18, 584.13, 7.91),
+                heading = 270.311,
+            },
+		{
+                ped = `mp_m_shopkeep_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(-3242.2, 999.58, 12.83),
+                heading = 270.311,
+            },
+		{
+                ped = `mp_m_shopkeep_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(1728.39, 6413, 35.04),
+                heading = 270.311,
+            },
 	},
 
 
