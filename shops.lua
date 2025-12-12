@@ -4,7 +4,7 @@ return {
         blip = {
           id = 59,
           colour = 69,
-          scale = 0.8
+          scale = 0.7
         },
         inventory = {
             { name = 'burger', 					price = 10 },
@@ -99,5 +99,178 @@ return {
 			},
 
         },	
-	}
+	},
+
+	Genral2 = {
+		name = 'Black Market',
+		inventory = {
+			{ name = 'lockpick', 						price = 500 },
+			{ name = 'WEAPON_ASSAULTRIFLE', 			price = 5000 },
+			{ name = 'WEAPON_pistol50', 				price = 5000 },
+			{ name = 'silencer', 						price = 5000 },
+			{ name = 'grip', 							price = 5000 },
+			{ name = 'clip', 							price = 5000 },
+			{ name = 'ammo', 							price = 5000 },
+			{ name = 'ammo2', 							price = 5000 },
+			{ name = 'ammo3', 							price = 5000 },
+			{ name = 'ammo4', 							price = 5000 },
+			{ name = 'WEAPON_SNSPISTOL', 				price = 5000 },
+			{ name = 'WEAPON_PUMPSHOTGUN', 				price = 5000 },
+			{ name = 'WEAPON_MICROSMG', 				price = 5000 },
+			{ name = 'WEAPON_CERAMICPISTOL', 			price = 5000 },
+
+		},
+		locations = {
+            vec3(747.7932, 603.7961, 125.9197),
+        },
+		targets = {
+			-- Shop using a ped
+			{
+				ped = `g_m_importexport_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(748.2918, 603.6583, 124.9297),
+				heading = 125.0449,
+			},
+		},
+	},
+
+	Genral3 = {
+		name = 'Våbenbutik',
+		blip = {
+		  id = 110,
+		  colour = 4,
+		  scale = 0.7
+		},
+		inventory = {
+			{ name = 'WEAPON_BAT', 							price = 50 },
+			{ name = 'WEAPON_DAGGER', 						price = 100 },
+			{ name = 'WEAPON_CROWBAR', 						price = 25 },
+			{ name = 'WEAPON_KNIFE', 						price = 25 },
+			{ name = 'WEAPON_HAMMER', 						price = 25 },
+			{ name = 'WEAPON_WRENCH', 						price = 25 },
+			{ name = 'WEAPON_MACHETE', 						price = 25 },
+			{ name = 'WEAPON_SWITCHBLADE', 					price = 25 },
+			{ name = 'WEAPON_GOLFCLUB', 					price = 25 },
+			{ name = 'WEAPON_POOLCUE', 						price = 25 },
+			{ name = 'WEAPON_CROWBAR', 						price = 25 },
+		},
+		locations = {
+			vec3(23.9251, -1105.9979, 29.7970),
+		},
+		targets = {
+			-- Shop using a ped
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(23.9251, -1105.9979, 28.7970),
+				heading = 172.0825,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(841.1155, -1035.2957, 27.1948),
+				heading = 3.3843,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(808.8840, -2159.0730, 28.6190),
+				heading = 3.6843,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(-660.9598, -933.5154, 20.8292),
+				heading = 186.0354,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(253.3140, -51.7919, 68.9411),
+				heading = 66.9468,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(2566.6008, 292.5792, 107.7348),
+				heading = 6.4998,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(1693.1085, 3761.9773, 33.7053),
+				heading = 230.0271,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(-330.5483, 6086.0117, 30.4548),
+				heading = 224.5960,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(-1117.9712, 2700.6365, 17.5541),
+				heading = 224.5960,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(-3173.0430, 1089.6556, 19.8387),
+				heading = 224.5960,
+			},
+			{
+				ped = `s_m_m_autoshop_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(-1304.4200, -396.0197, 35.6958),
+				heading = 76.5960,
+			},
+		},
+	},
+
+	Genral4 = {
+    	name = 'Alkohol butik',
+	    blip = {
+	        id = 93,
+	        colour = 4,
+	        scale = 0.7,
+	    },
+ 	    inventory = {
+ 			{ name = 'wine',     		  price = 25 },
+	    	{ name = 'vodka',    		  price = 30 },
+			{ name = 'beer',    		  price = 30 },
+			{ name = 'red_wine',    	  price = 30 },
+			{ name = 'champagne',    	  price = 30 },
+			{ name = 'gintonic',    	  price = 30 },
+		},
+  	  	locations = {
+       		vec3(1134.1874, -982.5075, 46.4158),
+   	 	},
+ 	   	targets = {
+ 	      	{
+ 	           ped = 's_m_m_migrant_01',
+ 	           scenario = 'WORLD_HUMAN_CLIPBOARD',
+  	          loc = vec3(1134.1874, -982.5075, 45.4158),
+  	          heading = 280.64,
+ 	       	},
+  	     	{
+  	          ped = 's_m_m_migrant_01',
+ 	           scenario = 'WORLD_HUMAN_CLIPBOARD',
+ 	           loc = vec3(-1486.1893, -378.1376, 39.1634),
+	            heading = 126.79,
+	        },
+	        {
+	            ped = 's_m_m_migrant_01',
+	            scenario = 'WORLD_HUMAN_CLIPBOARD',
+	            loc = vec3(-1222.27, -908.46, 11.33),
+	            heading = 30.0,
+	        },
+	        {
+	            ped = 's_m_m_migrant_01',
+	            scenario = 'WORLD_HUMAN_CLIPBOARD',
+	            loc = vec3(-2966.3601, 390.7859, 14.0433),
+	            heading = 84.2513,
+	        },
+	    },
+	},
 }
