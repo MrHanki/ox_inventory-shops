@@ -13,6 +13,7 @@ return {
 			{ name = 'sandwich', 				price = 15 },
 			{ name = 'bandage', 				price = 25 },
 			{ name = 'parachute', 				price = 50 },
+			{ name = 'ziptie', 					price = 50 },
         },
         locations = {
             vec3(25.7, -1347.3, 29.49),
@@ -271,6 +272,40 @@ return {
 	            loc = vec3(-2966.3601, 390.7859, 14.0433),
 	            heading = 84.2513,
 	        },
+	    },
+	},
+
+	Genral5 = {
+    	name = 'Politi våbenskab',
+	    
+		groups = {
+			police = 0
+		},
+
+ 	    inventory = {
+			{ name = 'WEAPON_COMBATPISTOL',     				  price = 25 },
+			{ name = 'WEAPON_HEAVYPISTOL',   				 	  price = 30 },
+			{ name = 'ammo', 						 			  price = 30 },
+			{ name = 'WEAPON_SMG',    							  price = 30 },
+			{ name = 'WEAPON_CARBINERIFLE',    					  price = 30 },
+			{ name = 'flashlight',   					 		  price = 30 },
+			{ name = 'grip',    								  price = 30 },
+			{ name = 'scope',    								  price = 30 },
+			{ name = 'WEAPON_FLASHLIGHT',  					  	  price = 30 },
+			{ name = 'WEAPON_NIGHTSTICK',    					  price = 30 },
+			{ name = 'WEAPON_FIREEXTINGUISHER',    	 			  price = 30 },
+			{ name = 'policearmour',    						  price = 30 },
+		},
+  	  	locations = {
+       		vec3(1134.1874, -982.5075, 46.4158),
+   	 	},
+ 	   	targets = {
+ 	      	{
+ 	           ped = 's_m_m_ciasec_01',
+ 	           scenario = 'WORLD_HUMAN_CLIPBOARD',
+  	           loc = vec3(443.0231, -982.2546, 29.6896), -- Kan ændres til hvilket PD du bruger
+  	           heading = 84.8832, -- Kan ændres til hvilket PD du bruger
+ 	       	},
 	    },
 	},
 }
